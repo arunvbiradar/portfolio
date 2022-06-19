@@ -1,9 +1,10 @@
 import React from "react";
+import { AppWrap } from "../../wrapper";
 
 import "./Skills.scss";
 
 const Skills = () => {
-  return <div>Skills</div>;
+  return <h1>Skills</h1>;
 };
 
-export default Skills;
+export default AppWrap(Skills, "skills");
